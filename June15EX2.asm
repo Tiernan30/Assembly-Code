@@ -65,6 +65,7 @@ DisplayMessage proc
 		mov EDX, OFFSET buffer		;Display the buffer
 		Call WriteString
 		call Crlf
+		call Crlf
 	
 	popad
 	ret
